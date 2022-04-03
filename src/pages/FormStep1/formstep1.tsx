@@ -1,5 +1,5 @@
 import * as C from './styles'
-import { Theme } from '../../components/theme/theme'
+import { Theme } from '../../components/Theme/theme'
 import { useNavigate } from 'react-router-dom'
 import { useForm, FormActions } from '../../contexts/FormContext/formcontext'
 import { ChangeEvent, useEffect } from 'react'

@@ -1,5 +1,5 @@
 import * as C from './styles'
-import { Theme } from '../../components/theme/theme'
+import { Theme } from '../../components/Theme/theme'
 import { useNavigate } from 'react-router-dom'
 import { useForm, FormActions } from '../../contexts/FormContext/formcontext'
 import {  useEffect } from 'react'
@@ -24,7 +24,7 @@ export const FormStep2 = () => {
 
   const handleNextStep = () => {
     if(state.name !== ''){
-      navigate('/step2')
+      navigate('/step3')
     }
     
     else{
